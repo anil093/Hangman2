@@ -63,11 +63,11 @@ window.onload = function () {
     // Select Catagory
   var selectCat = function () {
     if (chosenCategory === categories[0]) {
-      catagoryName.innerHTML = 'The Chosen Category Is Famous things in canada'
+      catagoryName.innerHTML = 'The Chosen Category Is Premier League Football Teams'
     } else if (chosenCategory === categories[1]) {
-      catagoryName.innerHTML = 'The Chosen Category Is tv shows'
+      catagoryName.innerHTML = 'The Chosen Category Is Films'
     } else if (chosenCategory === categories[2]) {
-      catagoryName.innerHTML = 'The Chosen Category Is famous fod'
+      catagoryName.innerHTML = 'The Chosen Category Is Cities'
     }
   }
 
