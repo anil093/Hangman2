@@ -8,21 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
+
 <body>
   <div class="wrapper">
-    <h1>Hangman</h1>
-     <h2> Hangman Game</h2>
+    <h1 class="animated  bounce delay-2s">Hangman Game</h1>
+     
    
  </div>
- <div class="wrapper">
-     <div id="buttons">
-     </div>  
+ <div class="Container">
+    <canvas id="Hangman"></canvas>
+    
      <p id="catagoryName"></p>
      <div id="hold">
      </div>
+    
      <p id="mylives"></p>
      <p id="clue">Clue -</p>  
-      <canvas id="stickman"></canvas>
+     <div id="buttons">
+      </div>
+    
      <div class="container">
        <button id="hint">Hint</button>
        <button id="reset">Play again</button>
@@ -31,4 +35,5 @@
  
 </body>
 <script src="logic.js"></script>
+
 </html>

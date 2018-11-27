@@ -7,11 +7,11 @@ body {
 	text-align: center;
 	font-size: 18px;
 }
-.wrappper {
+.Container {
 	width: 100%;
 	margin: 0 auto;
 }
-.wrappper:after {
+.Container:after {
 	content: "";
 	display: table;
 	clear: both;
